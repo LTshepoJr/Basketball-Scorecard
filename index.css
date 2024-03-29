@@ -4,12 +4,15 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+:root {
+    --fw: 500;
+    
+}
 .container {
     display: flex;
     justify-content: space-around;
     align-items: start;
-    width: 1175px;
+    width: 100%;
     height: 785px;
     background: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlyaWludTR4YzJ3dHFtMjBmNmNndGhpamFjdHFkZTNoYmI1aW8wdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlLh7p3h3SJd6VO/giphy.gif');
     background-size: cover;
@@ -18,28 +21,28 @@ body {
 .headings {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: var(--fw);
 
     color: #892D23ff;
     text-shadow: 2px 1px 1px black;
-    font-size: 40px;
+    font-size: 4em;
     margin-top: 100px;
 }
 
 .inNumber {
     font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 90px;
-    font-weight: 400;
-    line-height: 130px;
-    letter-spacing: 0em;
+    font-size: 7em;
+    font-weight: var(--fw);
+    line-height: 2rem;
+    letter-spacing: .1em;
     text-align: center;
     
 
     color: #F94F6D;
-    height: 120px;
-    border-radius: 5px;
+    height: 1em;
+    border-radius: 2em;
     background: none;
-    margin-top: 10px;
+    margin-top: 1em;
 }
 
 .threebtns{
@@ -51,9 +54,9 @@ body {
 
 .btn{
   font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-
-    padding: 25px 35px;
+  font-optical-sizing: 30px;
+    font-size: 1.1em;
+    padding: 1.3em 2.3em;
     border-radius: 10px;
     margin: 20px 0 20px 0;
     background-color: #77582Aff;
@@ -62,7 +65,7 @@ body {
 #mainhead {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: var(--fw);
     color: #8F928Eff;
     text-decoration:underline;
 }
