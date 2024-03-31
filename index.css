@@ -3,17 +3,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100dvh;
 }
 :root {
     --fw: 500;
     
 }
 .container {
+    height: 100dvh;
     display: flex;
     justify-content: space-around;
     align-items: start;
-    width: 100%;
-    height: 785px;
+    width: 90em;
     background: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlyaWludTR4YzJ3dHFtMjBmNmNndGhpamFjdHFkZTNoYmI1aW8wdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlLh7p3h3SJd6VO/giphy.gif');
     background-size: cover;
 }
@@ -68,4 +69,6 @@ body {
     font-weight: var(--fw);
     color: #8F928Eff;
     text-decoration:underline;
+    margin: 2em auto;
+    padding: 0 1em;
 }
