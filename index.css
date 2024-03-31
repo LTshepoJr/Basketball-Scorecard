@@ -1,38 +1,37 @@
 body {
     background: linear-gradient(#3F2717ff, #7E5E2Cff) ;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-}
-:root {
-    --fw: 500;
-    
-}
-.container {
-    height: 100dvh;
-    display: flex;
     justify-content: space-around;
     align-items: start;
-    width: 90em;
+    width: 100dvw;
     background: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlyaWludTR4YzJ3dHFtMjBmNmNndGhpamFjdHFkZTNoYmI1aW8wdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlLh7p3h3SJd6VO/giphy.gif');
     background-size: cover;
 }
+:root {
+    --fw: 550;
+    
+}
+@media (min-width: 800px) {
+    .body {
+        height: 100dvh;
+    }
+}
 
 .headings {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: var(--fw);
-
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: var(--fw);
+    height: 20dvh;
     color: #892D23ff;
     text-shadow: 2px 1px 1px black;
     font-size: 4em;
     margin-top: 100px;
+
 }
 
 .inNumber {
     font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 7em;
+    font-size: 7.4em;
     font-weight: var(--fw);
     line-height: 2rem;
     letter-spacing: .1em;
@@ -54,8 +53,8 @@ body {
 }
 
 .btn{
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: 30px;
     font-size: 1.1em;
     padding: 1.3em 2.3em;
     border-radius: 10px;
@@ -71,4 +70,5 @@ body {
     text-decoration:underline;
     margin: 2em auto;
     padding: 0 1em;
+    font-size: 2.7em;
 }
