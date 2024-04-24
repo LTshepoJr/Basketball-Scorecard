@@ -1,16 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Revolution&display=swap" rel="stylesheet">
         <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <title>Basketball Scorecard</title>
     </head>
-    <body><div id="container">
+    <body>
+        <div id="container">
             <div>
                 <h3 class="headings">AWAY</h3>
                 <p class="inNumber" id="awayscore">0</p>
@@ -23,16 +32,16 @@
             <div>
                 <h1 id="mainhead">Basketball Scorecard</h1>
             </div>
-
             <div>
                 <h3 class="headings">HOME</h3>
                 <p class="inNumber" id="homescore">0</p>
-                    <div class="threebtns">
-                        <button class="btn freeThrow" onclick="homeFT()">+1 (FT)</button>
-                        <button class="btn paint" onclick="homeKD()">+2 (Inside Ark)</button>
-                        <button class="btn curry" onclick="homeThree()">+3 (Outside Ark)</button>
-                    </div>
-            </div></div>
+                <div class="threebtns">
+                    <button class="btn freeThrow" onclick="homeFT()">+1 (FT)</button>
+                    <button class="btn paint" onclick="homeKD()">+2 (Inside Ark)</button>
+                    <button class="btn curry" onclick="homeThree()">+3 (Outside Ark)</button>
+                </div>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
