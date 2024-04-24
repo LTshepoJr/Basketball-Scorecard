@@ -74,18 +74,3 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
-@media (max-width: 600px) {
-    body {
-        background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTVibTkyMXc1aXkxdWhzZ2RzOTBleXpvZHFqdGV1cmQxNjBmanowZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iPg2OZbNXc7uM/giphy.gif');
-        background-size: cover;
-        background-position: center;
-    }
-}
-@media (min-width: 600px) {
-    body {
-        background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHh3Z2o1MTBkeHM0MWh4ZDJ0dmtmZ2NoMTdqcWNsazRob3VoZWZrcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l46CqLVMWzaJUFPLW/giphy.gif');
-        background-size: cover;
-        background-position: center;
-    }
-}
