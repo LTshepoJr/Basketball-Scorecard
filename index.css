@@ -1,19 +1,18 @@
 body {
-    background-color: #3F2717ff;
-    margin: 0;
-    padding: 0;
+  background-color: #3f2717ff;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --fw: 500;
-    --f-headings: 40px;
-    
+  --fw: 500;
+  --f-headings: 40px;
 }
 
 .headings {
   font-family: "Rubik", sans-serif;
   font-weight: var(--fw);
-  color: #892D23ff;
+  color: #892d23ff;
   text-shadow: 2px 1px 1px black;
   text-align: center;
   font-size: var(--f-headings);
@@ -21,56 +20,56 @@ body {
 }
 
 .inNumber {
-    font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 80px;
-    font-weight: var(--fw);
-    text-align: center;
-    color: #F94F6D;
-    margin: 30px 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 80px;
+  font-weight: var(--fw);
+  text-align: center;
+  color: #f94f6d;
+  margin: 30px 0;
 }
 
-.threebtns{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    margin-top: 20px;
+.threebtns {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
-.btn{
+.btn {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
   padding: 22px 25px;
   border-radius: 30px;
   margin: 20px 0 20px 0;
-  background-color: #77582Aff;
+  background-color: #77582aff;
   font-weight: var(--fw);
   transition: all 0.5s ease-in-out;
 }
 
 .btn:hover {
-    background-color: rgb(82, 64, 37);
-    color: #F94F6D;
-    border-color: #F94F6D;
+  background-color: rgb(82, 64, 37);
+  color: #f94f6d;
+  border-color: #f94f6d;
 }
 
 .btn:focus {
-    background-color: rgb(82, 64, 37);
-    color: #F94F6D;
-    border-color: #F94F6D;
+  background-color: rgb(82, 64, 37);
+  color: #f94f6d;
+  border-color: #f94f6d;
 }
 
 #mainhead {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: var(--fw);
-  color: #8F928Eff;
-  text-decoration:underline;
+  color: #8f928eff;
+  text-decoration: underline;
   font-size: var(--f-headings);
   text-align: center;
   margin: 48px 0;
 }
 
 #container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
