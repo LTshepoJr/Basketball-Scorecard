@@ -20,7 +20,8 @@ html {
   --silver: #b2afaeff;
 }
 
-.headings {
+.headings,
+#midCol label {
   font-family: "Rubik", sans-serif;
   font-weight: var(--fw);
   color: var(--platinum);
@@ -49,7 +50,8 @@ html {
   margin-top: 1em;
 }
 
-.btn {
+.btn,
+#midCol button {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.2em;
   padding: 1.5em 0.5em;
@@ -94,4 +96,17 @@ html {
   #container {
     background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3B1aDU4NWVsZHQ5ZWo1aDJ0eWdxaXhqdjRjMHJpdDc1ZnpwanhoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HRC3FlKFIj2WAIMDR3/giphy.gif");
   }
+}
+
+#midCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#midCol input {
+  max-width: 4em;
+  height: 2em;
+  text-align: center;
+  font-size: 1.4em;
 }
