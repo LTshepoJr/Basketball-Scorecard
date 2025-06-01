@@ -1,34 +1,34 @@
-let awayscore = 0;
-let homescore = 0;
-let away = document.getElementById("awayscore");
-let home = document.getElementById("homescore");
+let awayScore = 0;
+let homeScore = 0;
+const away = document.getElementById("awayScore");
+const home = document.getElementById("homeScore");
 
 function awayFT() {
-  awayscore += 1;
-  away.textContent = awayscore;
+  awayScore += 1;
+  away.textContent = awayScore;
 }
 
-function awayKD() {
-  awayscore += 2;
-  away.textContent = awayscore;
+function awayMiddy() {
+  awayScore += 2;
+  away.textContent = awayScore;
 }
 
 function awayThree() {
-  awayscore += 3;
-  away.textContent = awayscore;
+  awayScore += 3;
+  away.textContent = awayScore;
 }
 
 function homeFT() {
-  homescore += 1;
-  home.textContent = homescore;
+  homeScore += 1;
+  home.textContent = homeScore;
 }
 
-function homeKD() {
-  homescore += 2;
-  home.textContent = homescore;
+function homeMiddy() {
+  homeScore += 2;
+  home.textContent = homeScore;
 }
 
 function homeThree() {
-  homescore += 3;
-  home.textContent = homescore;
+  homeScore += 3;
+  home.textContent = homeScore;
 }
