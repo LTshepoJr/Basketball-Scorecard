@@ -1,75 +1,97 @@
-body {
-  background-color: #3f2717ff;
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
 :root {
   --fw: 500;
-  --f-headings: 40px;
+  --f-headings: 1.8em;
+  --dark-brown: #3f2717ff;
+  --reddish: #892d23ff;
+  --light-reddish: #f94f6d;
+  --light-brown: #77582aff;
+  --brown: #524025;
+  --grey: #8f928eff;
+  --platinum: #d9e0e3ff;
+  --rosy-brown: #bb9386ff;
+  --eggplant: #512734ff;
+  --raisin-black: #272a36ff;
+  --silver: #b2afaeff;
 }
 
 .headings {
   font-family: "Rubik", sans-serif;
   font-weight: var(--fw);
-  color: #892d23ff;
+  color: var(--platinum);
   text-shadow: 2px 1px 1px black;
   text-align: center;
   font-size: var(--f-headings);
-  margin-top: 50px;
+  margin-top: 1.2em;
 }
 
 .inNumber {
   font-family: "Cursed Timer ULiL", sans-serif;
-  font-size: 80px;
+  font-size: 6em;
   font-weight: var(--fw);
   text-align: center;
-  color: #f94f6d;
-  margin: 30px 0;
+  color: var(--raisin-black);
+  margin: 0.1em 0;
+  background-color: var(--rosy-brown);
+  padding-top: 0.1em;
+  border-radius: 20px;
 }
 
-.threebtns {
+.threeBtns {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .btn {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
-  padding: 22px 25px;
+  font-size: 1.2em;
+  padding: 1.5em 0.5em;
   border-radius: 30px;
-  margin: 20px 0 20px 0;
-  background-color: #77582aff;
+  margin: 0.8em 0;
+  background-color: var(--raisin-black);
   font-weight: var(--fw);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease;
+  color: var(--platinum);
 }
 
 .btn:hover {
-  background-color: rgb(82, 64, 37);
-  color: #f94f6d;
-  border-color: #f94f6d;
+  background-color: var(--platinum);
+  color: var(--eggplant);
+  border-color: var(--raisin-black);
 }
 
 .btn:focus {
-  background-color: rgb(82, 64, 37);
-  color: #f94f6d;
-  border-color: #f94f6d;
+  background-color: var(--eggplant);
+  color: var(--platinum);
+  border-color: var(--raisin-black);
 }
 
-#mainhead {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
+#mainHead {
+  font-family: "Cursed Timer ULiL", sans-serif;
   font-weight: var(--fw);
-  color: #8f928eff;
+  color: var(--rosy-brown);
   text-decoration: underline;
   font-size: var(--f-headings);
   text-align: center;
-  margin: 48px 0;
 }
 
 #container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3B1aDU4NWVsZHQ5ZWo1aDJ0eWdxaXhqdjRjMHJpdDc1ZnpwanhoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MXgBM3GL6oB8HunFVr/giphy.gif");
+  background-size: cover;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 1097px) {
+  #container {
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3B1aDU4NWVsZHQ5ZWo1aDJ0eWdxaXhqdjRjMHJpdDc1ZnpwanhoeiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HRC3FlKFIj2WAIMDR3/giphy.gif");
+  }
 }
