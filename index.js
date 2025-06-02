@@ -2,12 +2,16 @@ let awayScore = 0;
 let homeScore = 0;
 const away = document.getElementById("awayScore");
 const home = document.getElementById("homeScore");
-const endpoint = document.getElementById("endpoint");
-const start = document.getElementById("start");
-start.addEventListener("click", function () {
-  const endpointValue = endpoint.valueAsNumber;
-  console.log(endpointValue);
-});
+
+// const endpoint = document.getElementById("endpoint");
+// const start = document.getElementById("start");
+// console.log(awayScore);
+// start.addEventListener("click", function () {
+//   const endpointValue = endpoint.valueAsNumber;
+//   if ((awayScore >= endpointValue) | (home.value >= endpointValue)) {
+//     console.log("hey");
+//   }
+// });
 
 function awayFT() {
   awayScore += 1;
